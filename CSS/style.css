@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: #08A6E4;
     --color-primary-shadow: rgba(7, 172, 230, .16);
