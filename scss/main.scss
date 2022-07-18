@@ -604,3 +604,18 @@ h2 {
 .footer__icons a:first-of-type {
   margin-right: 25px;
 }
+
+
+$tablet-width: 1352px;
+
+@mixin tablet {
+  @media (max-width: #{$tablet-width}) {@content;}
+}
+
+.container {
+  @include tablet;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
